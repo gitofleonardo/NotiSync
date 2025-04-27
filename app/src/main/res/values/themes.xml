@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Base.Theme.NotiSync.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="switchPreferenceCompatStyle">@style/Preference.MaterialSwitch</item>
+    </style>
+
+    <style name="Base.Theme.NotiSync" parent="Base.Theme.NotiSync.DayNight" />
+
+    <style name="Theme.NotiSync" parent="Base.Theme.NotiSync" />
+
+    <style name="Preference.MaterialSwitch" parent="Preference.SwitchPreferenceCompat.Material">
+        <item name="android:widgetLayout">@layout/layout_material_switch</item>
+    </style>
+</resources>

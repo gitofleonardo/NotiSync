@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Base.Theme.NotiSync" parent="Base.Theme.NotiSync.DayNight" />
+</resources>

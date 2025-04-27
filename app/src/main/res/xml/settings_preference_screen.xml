@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/title_pref_group_normal">
+        <DropDownPreference
+            app:entries="@array/options_ble_mode"
+            app:entryValues="@array/options_ble_mode_values"
+            app:icon="@drawable/ic_work_mode_sending"
+            app:key="ble_work_mode"
+            app:title="@string/title_ble_mode"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/ic_list_remove_24"
+            app:key="sync_on_notification_removal"
+            app:summary="@string/summary_sync_removal"
+            app:title="@string/title_sync_removal" />
+
+        <Preference
+            app:key="filter_apps"
+            app:summary="@string/summary_filter_apps"
+            app:title="@string/title_filter_apps" />
+
+        <!--<Preference
+            app:icon="@drawable/ic_rules_24dp"
+            app:key="global_filtering_rules"
+            app:summary="@string/summary_global_filtering"
+            app:title="@string/title_global_filtering" />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/title_pref_group_others">
+        <Preference
+            app:icon="@drawable/ic_code_24"
+            app:key="key_proj_source"
+            app:summary="@string/desc_this_proj_source"
+            app:title="@string/title_this_proj_source" />
+
+        <Preference
+            app:key="key_proj_oss"
+            app:title="@string/title_oss" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package io.github.gitofleonardo.coreservice;
+
+enum MsgType {
+    MSG_TYPE_POST_NOTIFICATION = 0;
+    MSG_TYPE_REMOVE_NOTIFICATION = 1;
+}
+
+message BleMessage {
+    MsgType type = 1;
+    oneof data {
+        StatusBarNotification notification = 2;
+    }
+}
+
+message StatusBarNotification {
+    string pkg = 1;
+    int32 id = 2;
+    Notification notification = 6;
+}
+
+message Notification {
+    int32 flags = 1;
+    int32 visibility = 2;
+    int32 priority = 4;
+    string title = 5;
+    string big_title = 6;
+    string content_text = 7;
+    string sub_text = 8;
+    string channel_id = 9;
+    string app_name = 10;
+}

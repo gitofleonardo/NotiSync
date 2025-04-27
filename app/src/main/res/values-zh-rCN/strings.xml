@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotiSync</string>
+    <string name="title_btn_connect">连接</string>
+    <string name="permission_rejected_msg">需要蓝牙权限</string>
+    <string name="title_home">首页</string>
+    <string name="title_settings">设置</string>
+    <string name="title_new_device">设备</string>
+    <string name="title_empty_device">无可用设备</string>
+    <string name="device_default_name">(未知)</string>
+    <string name="message_connect_to_device">你确定要连接此设备吗？</string>
+    <string name="message_connect_succeed">成功连接设备</string>
+    <string name="message_failed_connect_device">设备连接失败</string>
+    <string name="title_connecting_device">连接中</string>
+    <string name="title_chip_connected">已连接</string>
+    <string name="title_chip_disconnected">已断开</string>
+    <string name="title_chip_state_synced">同步开</string>
+    <string name="title_chip_state_not_synced">同步关</string>
+    <string name="title_pref_group_normal">通用</string>
+    <string name="title_pref_group_others">其他</string>
+    <string name="title_ble_mode">工作模式</string>
+    <string name="option_ble_mode_sending_only">仅发送</string>
+    <string name="option_ble_mode_sending_n_receiving">发送与接收</string>
+    <string name="title_filter_apps">应用过滤</string>
+    <string name="summary_filter_apps">允许同步应用的通知到另一台设备上</string>
+    <string name="title_global_filtering">全局过滤规则</string>
+    <string name="summary_global_filtering">用于全局过滤需要发送到另一台设备上的通知内容</string>
+    <string name="title_this_proj_source">源码</string>
+    <string name="desc_this_proj_source">从 Github 上获取本项目的源码</string>
+    <string name="title_oss">开源许可</string>
+    <string name="title_chip_remove_device">移除</string>
+    <string name="message_remove_device">你确定要移除这台设备吗？</string>
+    <string name="title_sync_removal">同步移除</string>
+    <string name="summary_sync_removal">当通知在本设备被移除时，同步移除另一台设备上的此条通知</string>
+</resources>

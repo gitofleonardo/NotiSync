@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_ble_mode">
+        <item>@string/option_ble_mode_sending_only</item>
+        <item>@string/option_ble_mode_sending_n_receiving</item>
+    </string-array>
+
+    <string-array name="options_ble_mode_values">
+        <item>@string/mode_ble_sending_only</item>
+        <item>@string/mode_ble_sending_n_receiving</item>
+    </string-array>
+</resources>

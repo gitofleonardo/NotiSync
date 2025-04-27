@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="channel_name" translatable="false">Device_%s</string>
+    <string name="channel_description" translatable="false">Notifications from %s</string>
+
+    <string name="mode_ble_sending_only" translatable="false">ble_mode_sending_only</string>
+    <string name="mode_ble_sending_n_receiving" translatable="false">ble_mode_sending_n_receiving</string>
+
+</resources>

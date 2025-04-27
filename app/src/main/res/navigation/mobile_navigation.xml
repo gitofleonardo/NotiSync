@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="io.github.gitofleonardo.notisync.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_new_device"
+            app:destination="@id/navigation_new_device" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="io.github.gitofleonardo.notisync.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_navigation_settings_to_navigation_filtered_apps"
+            app:destination="@id/navigation_filtered_apps" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_new_device"
+        android:name="io.github.gitofleonardo.notisync.ui.device.NewDeviceFragment"
+        android:label="@string/title_new_device"
+        tools:layout="@layout/fragment_new_device" />
+
+    <fragment
+        android:id="@+id/navigation_filtered_apps"
+        android:name="io.github.gitofleonardo.notisync.ui.filterapps.FilterAppsFragment"
+        android:label="@string/title_filter_apps"
+        tools:layout="@layout/fragment_filter_apps" />
+</navigation>
